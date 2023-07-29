@@ -1,0 +1,46 @@
+angular.io --> documentacion general
+
+angular.json 
+server {
+    add options{
+        host:"0.0.0.0" para que sea accesible desde toda la red local
+    }
+}
+
+EXTENSIONES RECOMENDADAS
+angular languaje service
+angular files
+angular Support
+Angular 2 TypeScript Emmet
+Bracket Pair Color DLW
+Bootstrap 4, Font awesome 4, Font Awesome 5 Free &
+
+ng g c component -s -t --> s estilos inlone t template inline
+npm i bootstrap --save
+npm install bootstrap jquery @popperjs/core  --save
+Text Interpolacion
+{{ callVAriable, funcion}}
+
+template reference callVAriable
+
+property binding
+[disabled]="deshabilitar"
+
+event binding
+(click)="agregarPersona()"
+
+two-way binding
+formsModule
+ [(ngModel)]="titulo"/>
+
+ property binding 
+ @input()
+ @output()
+
+no necesita inicializar
+   "compilerOptions": {
+    "strictPropertyInitialization": false,
+
+
+PIPE Angular
+{{presupuestoTotal | currency:'HNL':'L':'1.2-2'}}
